@@ -1,0 +1,53 @@
+{
+  "name": "sup",
+  "version": "1.0.0",
+  "description": "WhatsApp Web Client for Linux",
+  "main": "main.js",
+  "scripts": {
+    "start": "node start.js",
+    "electron": "electron .",
+    "dev": "electron . --debug",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "build": "node build.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "electron",
+    "desktop"
+  ],
+  "author": {
+    "name": "Danilo Falcão",
+    "email": "danilo@falcao.org"
+  },
+  "homepage": "https://github.com/danilofalcao/sup",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^35.0.0",
+    "electron-builder": "^24.6.4"
+  },
+  "build": {
+    "appId": "org.falcao.sup",
+    "productName": "Sup",
+    "directories": {
+      "output": "dist"
+    },
+    "icon": "assets/whatsapp.png",
+    "linux": {
+      "target": ["AppImage"],
+      "category": "Network",
+      "maintainer": "Danilo Falcão <danilo@falcao.org>",
+      "icon": "assets/whatsapp.png"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ]
+    }
+  }
+}
