@@ -22,10 +22,12 @@ A simple WhatsApp Web Client for Linux.
 
 1. Clone this repository
 2. Install dependencies:
+
    ```
    npm install
    ```
 3. Start the application:
+
    ```
    npm start
    ```
