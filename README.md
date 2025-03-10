@@ -2,6 +2,8 @@
 
 A simple WhatsApp Web Client for Linux.
 
+![Sup Screenshot](img/screenshot.png)
+
 ## Features
 
 - Access WhatsApp Web from your desktop
@@ -45,3 +47,5 @@ After launching the application, you'll need to scan the QR code with your phone
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+Copyright (c) 2025 Danilo Falcão
